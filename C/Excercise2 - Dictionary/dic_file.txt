@@ -1,0 +1,4 @@
+drink:beverage
+glass:cup mug
+cat:kitty feline pussy kitten
+banana:pineapple peach
