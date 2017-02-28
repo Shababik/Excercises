@@ -5,10 +5,10 @@ enum DBG_LVL_VALUE {
 	INFO,
 	DEBUG
 };
-#define DBG_LVL (NONE) /* 0 - 2 */
+#define DBG_LVL (DEBUG) /* 0 - 2 */
 #define DBG_INT ('i')
 #define DBG_DOUBLE ('d')
-#define DBG_TYPE (DBG_DOUBLE)
+#define DBG_TYPE (DBG_INT)
 
 /** Type declerations: **/
 
