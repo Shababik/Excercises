@@ -19,6 +19,7 @@ STRCMP:
 AGAIN:
 	LODSB ; Read char from str1
 	XCHG AL, BL ; Store it
+	XCHG ESI, EDI ; Switch str
 	LODSB ; Read char from str2
 	CMP AL, BL ; Compare chars
 	JNE NO ; If different, return FALSE
